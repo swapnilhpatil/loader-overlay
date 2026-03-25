@@ -6,6 +6,7 @@ import PropTableRow from "./components/demo/PropTableRow.jsx";
 import MainHeading from "./components/demo/MainHeading.jsx";
 import SubHeading from "./components/demo/SubHeading.jsx";
 import LoaderOverlay from "./index.jsx";
+import LeadParagraph from "./components/demo/LeadParagraph.jsx";
 import Playground from "./components/demo/Playground.jsx";
 import InteractiveDemo from "./components/demo/InteractiveDemo/index.jsx";
 
@@ -21,7 +22,7 @@ const NAV = [
 ];
 
 export default function App() {
-  const [page, setPage] = useState("playground");
+  const [page, setPage] = useState("v2demo");
 
   return (
     <div
@@ -172,9 +173,9 @@ export default function App() {
               >
                 weekly downloads
               </div>
-              <div style={{ fontSize: 22, fontWeight: 800, color: "#c084fc" }}>
+              {/* <div style={{ fontSize: 22, fontWeight: 800, color: "#c084fc" }}>
                 48.2k
-              </div>
+              </div> */}
               <div
                 style={{
                   marginTop: 6,
