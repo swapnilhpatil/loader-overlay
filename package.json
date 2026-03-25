@@ -1,0 +1,51 @@
+{
+  "name": "loader-overlay",
+  "version": "2.1.0",
+  "type": "module",
+  "description": "Drop-in React overlay loader",
+  "main": "dist/loader-overlay.umd.js",
+  "module": "dist/loader-overlay.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/loader-overlay.es.js",
+      "require": "./dist/loader-overlay.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^5.1.0",
+    "@storybook/addon-a11y": "^10.3.3",
+    "@storybook/addon-docs": "^10.3.3",
+    "@storybook/addon-onboarding": "^10.3.3",
+    "@storybook/addon-essentials": "^10.3.3",
+    "@storybook/addon-links": "^10.3.3",
+    "@storybook/addon-interactions": "^10.3.3",
+    "@storybook/addon-vitest": "^10.3.3",
+    "@storybook/react-vite": "^10.3.3",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitest/browser-playwright": "^4.1.1",
+    "@vitest/coverage-v8": "^4.1.1",
+    "playwright": "^1.58.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^10.3.3",
+    "vite": "^5.2.0",
+    "vitest": "^4.1.1"
+  },
+  "dependencies": {
+    "loader-overlay": "file:"
+  }
+}
