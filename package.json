@@ -32,7 +32,6 @@
     "@storybook/addon-essentials": "^8.1.0",
     "@storybook/addon-links": "^8.1.0",
     "@storybook/addon-interactions": "^8.1.0",
-    "@storybook/addon-vitest": "^8.1.0",
     "@storybook/react-vite": "^8.1.0",
     "@vitejs/plugin-react": "^4.2.1",
     "@vitest/browser-playwright": "^4.1.1",
